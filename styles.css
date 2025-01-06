@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cairo:wght@200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@ body, h1, h2, p, ul, li {
     
 body {
     font-family: 'Arial', sans-serif;
+    font-family: "Cairo", serif;
     background-color: #111;
     color: #ffffff;
     line-height: 1.6;
@@ -56,6 +59,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    font-family: "Roboto Condensed", serif;
     font-size: 14px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -140,6 +144,7 @@ main {
 
 h2 {
     font-size: 24px;
+    font-family: "Roboto Condensed", serif;
     margin-bottom: 20px;
     border-bottom: 2px solid #ffffff;
     padding-bottom: 10px;
@@ -169,12 +174,14 @@ h2 {
     background-color: #ffffff;
     color: #000;
     font-size: 18px;
+    font-family: "Roboto Condensed", serif;
     text-align: center;
 }
 
 .project p {
     padding: 15px;
     font-size: 14px;
+    font-family: "Roboto Condensed", serif;
     background-color: #222;
     color: #ffffff;
 }
@@ -192,6 +199,7 @@ label, input, textarea, button {
 label {
     font-size: 16px;
     font-weight: bold;
+    font-family: "Roboto Condensed", serif;
     color: #ffffff;
 }
 
@@ -203,6 +211,7 @@ textarea {
     border: 1px solid #ffffff;
     border-radius: 5px;
     font-size: 16px;
+    font-family: "Roboto Condensed", serif;
     background-color: #000;
     color: #ccc;
 }
@@ -214,6 +223,8 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    font-family: "Roboto Condensed", serif;
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
@@ -263,6 +274,7 @@ footer {
     background-color: #000;
     padding: 30px 0;
     text-align: center;
+    font-family: "Roboto Condensed", serif;
     color: #ffffff;
     font-size: 16px;
     border-top: 2px solid #ffffff;
@@ -279,6 +291,7 @@ footer {
 /* Copyright Text */
 .footer-copyright {
     font-size: 14px;
+    font-family: "Roboto Condensed", serif;
     color: #ccc;
     margin-bottom: 15px;
 }
@@ -293,11 +306,12 @@ footer {
     color: #ffffff;
     margin: 0 15px;
     font-weight: bold;
+    font-family: "Roboto Condensed", serif;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #00dbb0;
+    color: #666867;
     transform: scale(1.1);
 }
 
@@ -315,6 +329,6 @@ footer {
 }
 
 .footer-social a:hover {
-    color: #00dbb0;
+    color: #666867;
     transform: scale(1.1);
 }
